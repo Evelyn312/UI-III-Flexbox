@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	padding: 50px 20px 0px 120px;
+}
+
+nav{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+nav a{
+	display: block;
+	line-height: 50px;
+	width: 100px;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;	
+}
+.header{
+	display: flex;
+	align-content: stretch;
+	justify-content: center;
+}
+.header .left, .header .right{
+	display: block;
+	width: 50%;
+	height: 15%;
+	text-align: center;	
+	padding: 20px;
+}
+.header button{
+	padding: 10px 40px;
+	border: 2px solid black;
+	border-radius: 0;
+
+}
+.header h1{
+	font-size: 60px;
+	font-weight: bolder;
+	padding-top: 100px;
+}
+.split-in-two{
+	display: flex;
+}
+.middle-img{
+	width: 100%;
+	height:	180px;
+	margin: 30px 0;
+}
+.split-in-three{
+	display: flex;
+}
+.inline-element{
+	padding: 10px;
+}
+footer{
+	text-align: center;
+	padding: 20px;
+}
+
+
+/* CSS for services page! */
+
+.services-header-img{
+	width: 100%;
+	height: 250px;
+}
+.container-services{
+	display: flex;
+	border: 1px solid red;
+
+}
+.container-services .service-type{
+	border: 1px solid black;
+	padding: 40px;
+	background-color: rgb(219, 219, 219);
+	width: 80%;
+}
+.container-services .service-type p{
+	font-size: 17px;
+	line-height: 25px;
+}
+.container-services .service-type button{
+	width: 150px;
+	height: 40px;
+	padding: 5px 20px;
+	border-color: black;
+	border-radius: 5px;
+	margin-top: 25px;
+	
+}
+.container-services .left{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid green;
+}
+.line{
+	border: 1px solid black;	
+}
+
