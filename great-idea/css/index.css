@@ -122,7 +122,7 @@ nav a{
 }
 footer{
 	text-align: center;
-	padding: 20px;
+	margin: 65px;
 }
 
 
@@ -134,14 +134,15 @@ footer{
 }
 .container-services{
 	display: flex;
-	border: 1px solid red;
+	justify-content: space-between;
+	
 
 }
 .container-services .service-type{
 	border: 1px solid black;
 	padding: 40px;
 	background-color: rgb(219, 219, 219);
-	width: 80%;
+	margin: 50px 0;
 }
 .container-services .service-type p{
 	font-size: 17px;
@@ -157,11 +158,41 @@ footer{
 	
 }
 .container-services .left{
-	display: flex;
-	flex-direction: column;
-	border: 1px solid green;
+	width: 48%;
+}
+.container-services .right{
+	width: 48%;
+
 }
 .line{
-	border: 1px solid black;	
+	border: 1px solid black;
+	margin: 30px 0;	
 }
+
+.container-services2{
+	display: flex;
+	justify-content: space-between;
+}
+ 
+.container-services2 .left{
+	width: 48%;
+	/* padding: 20px 0; */
+}
+.container-services2 .left p{
+	line-height: 20px;
+}
+.container-services2 .left ul{
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 20px;
+	padding: 20px 0;
+}
+.container-services2 .right{
+	width: 48%;
+	background-image: url("/Users/Evelyn/Lambda/Unit1/UI-III-Flexbox/great-idea/img/services-info.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+
 
